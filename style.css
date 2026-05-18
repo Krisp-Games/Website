@@ -1,0 +1,97 @@
+
+:root {
+    --main: #111111;
+    --secondary: #f3f3f3;
+    --accent: #ffb000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main);
+    color: var(--secondary);
+    font-family: Inter, system-ui, sans-serif;
+    text-align: center;
+}
+
+h1 
+{
+    margin: 0 0 16px;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    letter-spacing: -0.04em;
+    color: var(--secondary);
+}
+      
+p 
+{
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--secondary);
+}
+
+/* --------- NAVIGATION --------- */
+
+#navigation {
+    position: fixed;
+    top: 0;
+    padding: 2rem;
+    width: 100%;
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    padding-left: 10%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 10%;
+}
+
+a
+{
+    color: var(--secondary);
+    text-decoration: none;
+    text-decoration-color: var(--low-text);
+}
+
+/* --------- Home --------- */
+
+#home{
+    height: 80vh;
+    width: 90%
+}
+
+.home-title{
+    height: fit-content;
+}
+
+.home-title-text{
+    width: fit-content;
+    padding-left: 5%;
+}
+
+/* --------- About --------- */
+
+
+
+/* --------- Projects --------- */
+
+
+
+/* --------- Contact --------- */
