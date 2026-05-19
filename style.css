@@ -30,6 +30,12 @@ h1
     letter-spacing: -0.04em;
     color: var(--secondary);
 }
+
+.role-text
+{
+    margin: -20px 0 20px;
+    font-weight: 500;
+}
       
 p 
 {
@@ -188,4 +194,37 @@ a
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+/* --------- Footer --------- */
+
+.footer {
+    width: 100vw;
+    padding: 25px 15%;
+    background-color: #f3f3f3;
+    color: #232323;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: stretch;
+    
+}
+
+.footer div{
+
+    flex: 1;
+    text-align: center;
+}
+
+.footer div p{
+    color:#232323;
+ 
+}
+
+.footer div a{
+    color:#232323;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
