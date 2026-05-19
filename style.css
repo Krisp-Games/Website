@@ -262,6 +262,10 @@ a
     font-size: .8rem;
 }
 
+.home-arrow {
+    font-size: 1.5rem;
+}
+
 #about {
     width: 90%;
 }
