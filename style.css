@@ -30,6 +30,13 @@ h1
     letter-spacing: -0.04em;
     color: var(--secondary);
 }
+
+h2 {
+    margin: 0 0 16px;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    letter-spacing: -0.04em;
+    color: var(--secondary);
+}
       
 p 
 {
