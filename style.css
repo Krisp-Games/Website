@@ -30,12 +30,6 @@ h1
     letter-spacing: -0.04em;
     color: var(--secondary);
 }
-
-.role-text
-{
-    margin: -20px 0 20px;
-    font-weight: 500;
-}
       
 p 
 {
@@ -114,6 +108,12 @@ a
     text-shadow: 0px 0px 4px #111111;
 }
 
+.home-arrow {
+    font-size: 2rem;
+    position: relative;
+    bottom: -20%;
+}
+
 /* --------- About --------- */
 
 #about {
@@ -132,11 +132,19 @@ a
 .profile-image {
     width: 30%;
     border-radius: 100%;
+    box-shadow: 0px 0px 10px var(--accent);
 }
 
 .profile-desc {
     width: 80%;
     padding-left: 10%;
+}
+
+.role-text
+{
+    margin: -20px 0 20px;
+    font-weight: 500;
+    color: var(--accent);
 }
 
 /* --------- Projects --------- */
@@ -173,6 +181,7 @@ a
     border-radius: 100%;
     align-self: center;
     justify-self: center;
+    box-shadow: 0px 0px 10px var(--accent);
 }
 
 .project-desc {
@@ -227,4 +236,58 @@ a
     display: block;
     text-decoration: none;
     margin-bottom: 10px;
+}
+
+/* --------- Media Queries --------- */ 
+
+@media (max-width: 768px) {
+
+.nav-title {
+    font-size: 1rem;
+}
+
+.home-title-text {
+    width: 80%;
+    font-size: 3rem;
+}
+
+.home-text-p1 {
+    font-size: .8rem;
+}
+
+#about {
+    width: 90%;
+}
+
+.profile-desc {
+    font-size: smaller;
+}
+
+.project-grid {
+    grid-template-columns: repeat(1, 2fr);
+    padding-top: 3rem;
+}
+
+.project-desc {
+    padding-top: 2rem;
+    max-height: 80vh;
+    font-size: smaller;
+    padding-right: 0%;
+    width: 80%;
+}
+
+.project-image {
+    align-items: self-start;
+}
+
+.project-title {
+    width: 90%;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.nav-title-text {
+    font-size: 0;
+}
+
 }
