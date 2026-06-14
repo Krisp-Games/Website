@@ -45,6 +45,10 @@ p
     color: var(--secondary);
 }
 
+.home-text-p1{
+    font-size: 2rem;
+}
+
 /* --------- NAVIGATION --------- */
 
 #navigation {
@@ -97,7 +101,7 @@ a
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(to bottom, transparent 40%, var(--main) 100%),
-        url('assets/ninalozej-forest-10273244.jpg');;
+        url('assets/Poster 16x9 2.png');;
     background-size: cover;
     background-position: center;
 }
